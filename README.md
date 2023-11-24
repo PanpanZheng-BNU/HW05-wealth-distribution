@@ -1,6 +1,7 @@
 # HW05 wealth distribution
 
 ## The structure of data
+### The structure of entire folder
 - `./data/N100` folder which stores the data when agents' number $N = 100$ 
     - `alpha03` data of wealth(`m*.csv`) and saving propensity(`lambda*.csv`) corresponding to each steady wealth distribution, when the saving propensity $\lambda$  follows a power-law distribution with an exponent parameter of $\alpha = 0.3$ 
     - `alpha07` data of wealth(`m*.csv`) and saving propensity(`lambda*.csv`) corresponding to each steady wealth distribution, when the saving propensity $\lambda$ follows a power-law distribution with an exponent parameter of $\alpha = 0.7$  
@@ -20,4 +21,24 @@
     - `lambda` data of the saving propensity when the saving propensity $\lambda$ obey to uniform distribution $U(0,1)$
     - `m` data of wealth (or incomes) which coresponds to the saving propensity in `./lambda`
 
+### The structure of single `.csv` file
+- `m*.csv`
+    - each row is one steady distribution of wealth or incomes $m$ 
+
+        |          | $m_{1}$ | $m_{2}$ | $\cdots$ | $m_{N}$ |
+        |:---------|:--------|:--------|:---------|:--------|
+        | $1$      |         |         |          |         |
+        | $2$      |         |         |          |         |
+        | $\vdots$ |         |         |          |         |
+        | $n$      |         |         |          |         |
+
+- `lambda*.csv`
+    - each row is saving propensity $\lambda$ corresponding to each steady distribution of wealth
+
+        |          | $\lambda_{1}$ | $\lambda_{2}$ | $\cdots$ | $\lambda_{N}$ |
+        |:---------|:--------------|:--------------|:---------|:--------------|
+        | $1$      |               |               |          |               |
+        | $2$      |               |               |          |               |
+        | $\vdots$ |               |               |          |               |
+        | $n$      |               |               |          |               |
 
