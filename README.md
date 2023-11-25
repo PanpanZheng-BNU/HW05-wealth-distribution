@@ -1,5 +1,7 @@
 # HW05 wealth distribution
-> ==All code is written in [Julia](https://julialang.org/) language.==
+
+> [!NOTE]  
+> All code is written in [Julia](https://julialang.org/) language.
 
 ## The `Simulation` folder
 - `./Simulaiton/simulation.ipynb`: Contain the basic logic of simulation and the result when the saving propensity is homogenous.
